@@ -2,6 +2,8 @@ import { defineConfig } from 'astro/config'
 import tailwindcss from '@tailwindcss/vite'
 import icon from "astro-icon";
 import vercel from "@astrojs/vercel";
+import vercel from '@astrojs/vercel/serverless';
+
 ;
 
 export default defineConfig({

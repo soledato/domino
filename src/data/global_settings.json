@@ -1,0 +1,50 @@
+{
+  "title": "Dominó. Espacios sin límites.",
+  "description": "Fabricamos espacios que se pueden trasladar desde Tucumán a todo el país.",
+  "base_url": "",
+  "demo": {
+    "title": "Contacto",
+    "content": "<strong>Si estás interesado en DOMINÓ</strong> hacé clic abajo y llená el formulario así nos ponemos en contacto con vos.",
+    "cta": "Escribinos"
+  },
+  "theme_color": "#18181b",
+  "nav": [
+    {
+      "order": "1",
+      "title": "Productos",
+      "link": "/#productos"
+    },
+    {
+      "order": "2",
+      "title": "Ventajas",
+      "link": "/#ventajas"
+    },
+    {
+      "order": "3",
+      "title": "Espacios",
+      "link": "/#espacios"
+    },
+    {
+      "order": "4",
+      "title": "Experiencias",
+      "link": "/#experiencias"
+    },
+    {
+      "order": "5",
+      "title": "Preguntas frecuentes",
+      "link": "/#preguntas-frecuentes"
+    },
+    {
+      "order": "6",
+      "title": "Sobre nosotros",
+      "link": "/#nosotros"
+    }
+  ],
+
+  "social_links": [
+    {
+      "title": "Instagram",
+      "link": "https://www.instagram.com/domino_argentina/"
+          }
+  ]
+}

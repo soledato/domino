@@ -1,0 +1,30 @@
+---
+
+import CardProduct from './CardProduct.astro'
+
+const { title, product } = Astro.props
+
+---
+
+<section class="bs-container bs-mt-lg" id="productos">
+
+  <!-- Header -->
+  { title && <h2 class="bs-h2 text-center md:text-left">{ title }</h2> }
+
+  <!-- Case Study 1 -->
+  <div class="bs-mt-md">
+
+    <CardProduct product={ product[0] } />
+
+  </div>
+
+  <!-- Case studies -->
+  <div class="mt-8 grid lg:grid-cols-2 gap-8">
+
+    <CardProduct product={ product[1] } />
+    <CardProduct product={ product[2] } />
+
+  </div>
+
+</section>
+

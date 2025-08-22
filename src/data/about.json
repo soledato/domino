@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Ricardo Benito",
+    "image": "/socios/rb.avif",
+    "description":"Es contador, y tiene a su cargo la gestión comercial y financiera de la empresa. También participa de la búsqueda de nuevos negocios y oportunidades."
+  },
+  {
+    "title": "Andrés Fernández",
+    "image": "/socios/af.avif",
+    "description":"Es el arquitecto del equipo. Se encarga del diseño de los módulos DOMINÓ de acuerdo a cada proyecto."
+  },
+  {
+    "title": "Juan Pablo Vitriú",
+    "image": "/socios/jpv.avif",
+    "description":"Es quien está al frente del taller. Supervisa la producción y logística de instalación de los módulos."
+  },
+  {
+    "title": "Nicolás Vitriú",
+    "image": "/socios/nv.avif",
+    "description":"Está encargado del aprovisionamiento de materiales y el diseño de soluciones constructivas para cada proyecto."
+  }
+
+]

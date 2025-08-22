@@ -1,0 +1,32 @@
+{
+  "lang": "es",
+  "dir": "ltr",
+  "name": "Domino Argentina landing page",
+  "description": "Empresa de construcción de arquitctura modular.",
+  "short_name": "Domino Argentina",
+  "theme_color": "#18181B",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "src": "",
+      "sizes": "",
+      "type": "",
+      "purpose": ""
+    },
+    {
+      "src": "",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "src": "",
+      "sizes": "",
+      "type": "",
+      "purpose": ""
+    }
+  ]
+}

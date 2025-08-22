@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Hay un DOMINÓ para necesidad y para cada sueño.",
+    "sector": "¿Por qué elegirnos?",
+    "content": "<strong>DOMINÓ es tan ilimitado</strong> que sirve del mismo modo al usuario final como al inversor <br><br>Nos adaptamos a todos los presupuestos: nuestros módulos son una opción tanto para quien puede pagar sólo la estructura y equiparlo en el tiempo, como para quien quiere mudarse y empezar a disfrutarlo inmediatamente.",
+    "image": "/content-images/paisaje2.avif",
+    "image_alt": "Módulo Dominó en Tafí del Valle",
+    "bg": "bg-gradient-to-r from-[#a9abae] to-[#a9abae]"
+  },
+  {
+    "title": "ARQUITECTURA MODULAR",
+    "sector": "Bienes",
+    "content": " Construimos en 90 días espacios versátiles con fines múltiples: viviendas, oficinas, locales comerciales, depósitos, instalaciones turísticas, y todo lo que te imagines, desde un barrio hasta un centro de compras.",
+    "image": "/content-images/domi-tafi.avif",
+    "image_alt": "primer plano de un módulo Dominó ya instalado",
+    "bg": "bg-gradient-to-r from-[#a9abae] to-[#a9abae]"
+  },
+  {
+    "title": "SOLUCIONES A MEDIDA",
+    "sector": "Servicios",
+    "content": "Diseñamos, trasladamos e instalamos nuestros DOMINÓ® en función de los requerimientos específicos de cada proyecto. Ofrecemos un servicio integral y creativo para que realmente haya espacios sin límites.",
+    "image": "/content-images/estructura-taller.avif",
+    "image_alt": "estructura metálica de un módulo Dominó en construcción",
+    "bg": "bg-gradient-to-r from-[#a9abae] to-[#a9abae]"
+  }
+]

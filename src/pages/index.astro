@@ -1,0 +1,79 @@
+---
+
+import Layout from "../layouts/Layout.astro"
+
+import ProductSection from "../components/ProductSection.astro"
+import FaqSection from "../components/FaqSection.astro"
+import AdvantagesCarrousel from "../components/AdvantagesCarrousel.astro"
+import HeroSection from "../components/HeroSection.astro"
+import QuoteSection from "../components/QuoteSection.astro"
+import TestimonialsSection from "../components/TestimonialsSection.astro"
+import Espacios from "../components/Espacios.astro"
+import About from "../components/About.astro"
+import Catalogue from "../components/Catalogue.astro"
+
+import espacios from "../data/espacios.json"
+import product from "../data/product.json"
+import faq from "../data/faq.json"
+import advantages from "../data/advantages.json"
+import home from "../data/home.json"
+import global_settings from "../data/global_settings.json"
+import testimonials from "../data/testimonials.json"
+import about from "../data/about.json"
+
+
+---
+
+<Layout title={ global_settings.title }>
+
+  <HeroSection
+    content={ home.hero_content }
+    settings={ global_settings }
+    title={ home.hero_title }
+  />
+ <ProductSection
+  product={ product }
+  title={ home.product_title }
+  />
+  <AdvantagesCarrousel
+    advantages={ advantages }
+    title={ home.advantages_title }
+  />
+
+
+  <QuoteSection
+  cite={ home.quote_cite }
+  content={ home.quote_content }
+  image={ home.quote_image }
+  />
+
+ <Espacios
+  espacios={espacios}
+  title={ home.espacios_title }
+  />
+  
+ 
+  <TestimonialsSection
+  testimonials={ testimonials }
+  title={ home.testimonials_title }
+  subtitle={ home.testimonials_subtitle }
+  />
+
+  <FaqSection
+    faq={ faq }
+    title={ home.faq_title }
+  />
+  <Catalogue/>
+  <About
+    about={ about }
+    title={ home.about_title }
+    content={ home.about_content }
+    
+  />
+
+
+  
+
+  
+
+</Layout>

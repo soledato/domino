@@ -1,0 +1,42 @@
+---
+const { title, espacios } = Astro.props
+import X from '../assets/theme-images/icon-x.svg'
+
+---
+<section 
+	title= "espacios"
+	class="second-section text-center relative "
+	data-header-color="red"
+	id="espacios">
+		
+  <header class="bs-container bs-mt-lg">
+    { title && <h2 class="bs-h2 text-center md:text-left">{ title }</h2>}
+	<main class="relative z-10 flex flex-1 flex-col">
+
+		<div class="relative overflow-hidden gap-6">
+			<div class="grid-container pt-10 pb-28 overflow-hidden">
+				<section>
+					<div class=" gap-6 md:gap-10 grid md:grid-cols-2 lg:grid-cols-2 mt-6">
+							
+							{ espacios.map( item =>
+								<article class=" panel relative flex rounded-2xl min-w-0 flex-col text-astro-gray-200 transition-transform duration-300 ease-out hover:scale-[1.03]">
+									<img id="image" src={item.link} alt="" loading="lazy" class="aspect-video w-full object-cover rounded-2xl relative">
+										<p  class="bg-black/10 lg:opacity-0 lg:hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-baseline-last lg:text-lg font-extralight p-2 text-white hover:bg-black/20 lg:font-semibold">
+									{item.content}
+									</p>
+								</article>
+							)}
+					</div>
+				</section>
+
+			</div>
+			
+			
+		</div>
+		
+		
+	</div>
+</main>
+
+			
+</section>

@@ -1,0 +1,37 @@
+---
+
+import Image from "astro/components/Image.astro"
+import logo from "../assets/theme-images/logo-blanco.avif"
+
+const { settings, title, content } = Astro.props
+
+---
+
+<section class="bs-container py-8 mb-10 flex flex-col items-center mx-auto text-center">
+  
+  <!-- Content -->
+  <div class="flex flex-col lg:max-w-lg w-full py-8 mb-60">
+    
+    <!-- Title -->
+    <h1 class="bs-h1" set:html={ title } />
+    <h6 set:html={content}></h6>
+    
+    <!-- Content
+    <div class="bs-body-text xl:text-xl flex flex-col gap-4 [&_p]:last:text-bs-foreground-dark place-content-center" set:html={ content } /> -->
+    
+    
+    <!-- Image -->
+     <div class="flex place-content-center mt-10 lg:mt-2 mb-40 overflow-hidden">
+    
+    
+         
+         <Image src={ logo } format="png" quality="high"  alt="Camión que traslada un módulo Dominó por un camino de montaña" loading="eager"/>
+         
+      <div/>
+
+  </div>
+
+    
+
+  
+</section>
